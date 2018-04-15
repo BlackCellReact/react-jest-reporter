@@ -1,0 +1,41 @@
+{
+  "name": "react-jest-reporter",
+  "version": "1.0.0",
+  "description": "Report and save your Jest result to MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testResultsProcessor": "."
+  },
+  "reactJsonReporter": {
+    "outputFile": "results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackCellReact/react-jest-reporter.git"
+  },
+  "keywords": [
+    "Jest",
+    "Unit",
+    "Test",
+    "MongoDB",
+    "Reporter"
+  ],
+  "author": {
+    "name": "Jason Mullings",
+    "email": "j_mullings@hotmail.co.uk"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlackCellReact/react-jest-reporter/issues"
+  },
+  "homepage": "https://github.com/BlackCellReact/react-jest-reporter#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "async": "^2.6.0",
+    "jest": "^22.4.3",
+    "mongodb": "^3.0.6"
+  }
+}
